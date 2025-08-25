@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Circulatory & Respiratory Systems</title>
+<style>
+  :root{
+    --brand:#004080;
+    --accent:#0066cc;
+    --bg:#f8f9fa;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: var(--bg);
+    color: #333;
+    line-height: 1.6;
+  }
+  header {
+    background: var(--brand);
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+  section {
+    max-width: 980px;
+    margin: auto;
+    padding: 20px;
+  }
+  .card {
+    background: white;
+    padding: 18px;
+    margin-bottom: 22px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  h2 { color: var(--brand); margin-top: 0; }
+  h3 { color: var(--accent); }
+  ul, ol { padding-left: 22px; }
+  blockquote {
+    border-left: 4px solid #ccc;
+    padding-left: 10px;
+    font-style: italic;
+    background: #f0f0f0;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    margin: 10px auto;
+    border-radius: 6px;
+  }
+  .muted { font-size: 0.85em; color: #666; }
+  aside {
+    background: #e8f4ff;
+    padding: 10px;
+    border-left: 5px solid var(--accent);
+    border-radius: 6px;
+    margin-top: 15px;
+  }
+  details summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--accent);
+  }
+  /* Extras for Pulse Points section */
+  .grid { display: grid; gap: 12px; }
+  @media (min-width: 700px){ .grid.cols-2 { grid-template-columns: 1fr 1fr; } }
+  .chip {
+    display: inline-block;
+    padding: 6px 10px;
+    border-radius: 999px;
+    background: #eef6ff;
+    border: 1px solid #cfe6ff;
+    font-size: 0.9em;
+    margin: 4px 6px 0 0;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 0.95em;
+  }
+  .table th, .table td {
+    border: 1px solid #e6e6e6;
+    padding: 8px 10px;
+  }
+  .table th { background:#f4f8ff; text-align: left; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Circulatory & Respiratory Systems</h1>
+</header>
+
+<section>
+
+  <!-- Circulatory System -->
+  <div class="card">
+    <h2>The Circulatory System</h2>
+    <p>The <strong>circulatory system</strong> transports blood, nutrients, oxygen, carbon dioxide, and hormones throughout the body.</p>
+    <blockquote>"Your heart works non-stop, even when you're sleeping!"</blockquote>
+
+    <details>
+      <summary>Key Functions</summary>
+      <ul>
+        <li>Pumps oxygen-rich blood to the body</li>
+        <li>Removes waste products like carbon dioxide</li>
+        <li>Regulates body temperature</li>
+        <li>Transports hormones and nutrients</li>
+      </ul>
+    </details>
+
+    <h3>Diagram</h3>
+    <img src="istockphoto-470440740-612x612.jpg" alt="Human circulatory system diagram">
+    <p class="muted">Image: Wikimedia Commons — public domain/CC.</p>
+
+    <h3>Main Parts &amp; Definitions</h3>
+    <ol>
+      <li><strong>Heart</strong> — Muscular pump that keeps blood moving.</li>
+      <li><strong>Arteries</strong> — Carry blood away from the heart.</li>
+      <li><strong>Veins</strong> — Return blood to the heart.</li>
+      <li><strong>Capillaries</strong> — Site of oxygen/nutrient exchange.</li>
+      <li><strong>Blood</strong> — Fluid carrying oxygen, nutrients, and waste.</li>
+    </ol>
+
+    <aside><strong>Did you know?</strong> Your heart beats about 100,000 times a day!</aside>
+  </div>
+
+  <!-- NEW: Pulse Points Section -->
+  <div class="card">
+    <h2>Pulse Points (Circulatory System)</h2>
+    <p><strong>Pulse points</strong> are places where an artery runs close to the skin and a bone—making the heartbeat easy to feel. These are used to check heart rate and circulation.</p>
+
+    <div class="grid cols-2">
+      <div>
+        <h3>Common Pulse Points</h3>
+        <ul>
+          <li><strong>Temporal</strong> — at the temple, above the cheekbone.</li>
+          <li><strong>Carotid</strong> — side of the neck beside the windpipe.</li>
+          <li><strong>Apical</strong> — left chest, at the heart’s apex (5th intercostal space).</li>
+          <li><strong>Brachial</strong> — inside upper arm above the elbow crease.</li>
+          <li><strong>Radial</strong> — wrist, thumb side (most common).</li>
+          <li><strong>Ulnar</strong> — wrist, little-finger side.</li>
+          <li><strong>Femoral</strong> — groin, where the leg meets the hip.</li>
+          <li><strong>Popliteal</strong> — behind the knee.</li>
+          <li><strong>Posterior Tibial</strong> — just behind the inner ankle bone.</li>
+          <li><strong>Dorsalis Pedis</strong> — top (dorsum) of the foot.</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Quick Reference</h3>
+        <table class="table">
+          <thead>
+            <tr><th>Best For</th><th>Pulse Point</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Everyday pulse checks</td><td>Radial</td></tr>
+            <tr><td>Emergency assessment</td><td>Carotid, Femoral</td></tr>
+            <tr><td>Blood pressure (stethoscope)</td><td>Brachial</td></tr>
+            <tr><td>Foot circulation</td><td>Dorsalis Pedis, Posterior Tibial</td></tr>
+            <tr><td>Heart auscultation</td><td>Apical</td></tr>
+          </tbody>
+        </table>
+        <aside><strong>Tip:</strong> Use your index and middle fingers (not your thumb). Count beats for 30 seconds and double for bpm, or for 15 seconds ×4.</aside>
+      </div>
+    </div>
+
+    <h3>Diagram</h3>
+    <img src="pulse-points-diagram.jpg" alt="Diagram showing major human pulse points">
+    <p class="muted">Placeholders shown — replace images with your preferred diagrams if needed.</p>
+
+    <details>
+      <summary>How to Check Safely</summary>
+      <ul>
+        <li>Apply gentle pressure—too hard can obstruct blood flow.</li>
+        <li>For the <em>carotid</em>, check only one side at a time to avoid dizziness.</li>
+        <li>Rest 5 minutes before measurement for a resting heart rate.</li>
+        <li>Normal resting adult rate: about <strong>60–100 bpm</strong> (athletes can be lower).</li>
+      </ul>
+    </details>
+  </div>
+
+  <!-- Respiratory System -->
+  <div class="card">
+    <h2>The Respiratory System</h2>
+    <p>The <strong>respiratory system</strong> allows oxygen in and removes carbon dioxide — essential for energy production.</p>
+    <blockquote>"Every breath you take keeps you alive — take a deep one now!"</blockquote>
+
+    <details>
+      <summary>Key Functions</summary>
+      <ul>
+        <li>Supplies oxygen to blood</li>
+        <li>Removes carbon dioxide</li>
+        <li>Regulates blood pH</li>
+        <li>Enables speech</li>
+      </ul>
+    </details>
+
+    <h3>Diagram</h3>
+    <img src="2301_Major_Respiratory_Organs.jpg" alt="Human respiratory system diagram">
+    <p class="muted">Image: Wikimedia Commons — public domain/CC.</p>
+
+    <h3>Main Parts &amp; Definitions</h3>
+    <ol>
+      <li><strong>Nose/Nasal Cavity</strong> — Filters and moistens air.</li>
+      <li><strong>Pharynx</strong> — Throat passageway.</li>
+      <li><strong>Larynx</strong> — Voice box, airway protector.</li>
+      <li><strong>Trachea</strong> — Windpipe.</li>
+      <li><strong>Bronchi</strong> — Branches into lungs.</li>
+      <li><strong>Lungs</strong> — Oxygen enters blood, CO₂ leaves.</li>
+      <li><strong>Alveoli</strong> — Gas exchange with capillaries.</li>
+      <li><strong>Diaphragm</strong> — Muscle aiding breathing.</li>
+    </ol>
+
+    <aside><strong>Did you know?</strong> Your lungs can hold up to 6 liters of air!</aside>
+  </div>
+
+</section>
+</body>
+</html>
